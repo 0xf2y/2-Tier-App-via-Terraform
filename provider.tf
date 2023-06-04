@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
   bucket = "2tier-app-iti-elfeki"
     dynamodb_table = "lock_table_name"
-  key    = "file1"
+  key    = "state"
   region = "us-east-1"
   encrypt = true
   access_key = ""
